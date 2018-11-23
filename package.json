@@ -13,8 +13,11 @@
     "url": "https://github.com/juriejan/task-new/issues"
   },
   "homepage": "https://github.com/juriejan/task-new#readme",
-	"engines": {
-		"node": "11.2.0",
-		"npm": "6.4.1"
-	}
+  "engines": {
+    "node": "11.2.0",
+    "npm": "6.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  }
 }
