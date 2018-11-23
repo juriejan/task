@@ -1,0 +1,20 @@
+{
+  "name": "task",
+  "version": "0.0.0",
+  "description": "Easy access to task scripts for your project.",
+  "main": "index.mjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juriejan/task-new.git"
+  },
+  "author": "Jurie-Jan Botha <juriejanbotha@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juriejan/task-new/issues"
+  },
+  "homepage": "https://github.com/juriejan/task-new#readme",
+	"engines": {
+		"node": "11.2.0",
+		"npm": "6.4.1"
+	}
+}
