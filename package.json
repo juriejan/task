@@ -1,9 +1,11 @@
 {
   "name": "task",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Easy access to task scripts for your project.",
-  "main": "index.js",
-	"bin": {"task": "./index.js"},
+  "main": "index.mjs",
+	"bin": {
+    "task": "./task.mjs"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/juriejan/task-new.git"
@@ -14,6 +16,10 @@
     "url": "https://github.com/juriejan/task-new/issues"
   },
   "homepage": "https://github.com/juriejan/task-new#readme",
+	"engines": {
+    "node": "11.2.0",
+    "npm": "6.4.1"
+  },
   "devDependencies": {
     "eslint": "^5.9.0"
   }
