@@ -1,4 +1,5 @@
-#!/usr/bin/env node --experimental-modules
+#!/bin/sh
+':' //; exec node --experimental-modules "$0" "$@"
 
 import Tasks from './tasks'
 
